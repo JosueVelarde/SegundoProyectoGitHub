@@ -14,8 +14,13 @@ public class SegundoProyectoGitHub {
     /**
      * @param args the command line arguments
      */
+    
+    static ClaseArrayList a = new ClaseArrayList();
+    
     public static void main(String[] args) {
-        System.out.println("Este es el segundo proyecto");
+        String articulo;
+        articulo = a.artciulos("7");
+        
     }
     
 }
